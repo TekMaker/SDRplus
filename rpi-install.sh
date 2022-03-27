@@ -16,10 +16,10 @@ sudo mkdir -p build
 cd build
 
 sudo mkdir -p CMakeFiles
-cmake .. -DOPT_BUILD_RTL_SDR_SOURCE=ON
+sudo cmake .. -DOPT_BUILD_RTL_SDR_SOURCE=ON
 
 echo "Building"
-make
+sudo make
 
 echo "Installing"
 sudo make install
