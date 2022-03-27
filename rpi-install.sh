@@ -9,10 +9,10 @@ sudo apt install -y build-essential cmake git libfftw3-dev libglfw3-dev libglew-
             libiio-dev libad9361-dev librtaudio-dev libhackrf-dev librtlsdr-dev libbladerf-dev liblimesuite-dev p7zip-full wget
 
 echo "Preparing build"
-mkdir -p build
+sudo mkdir -p build
 cd build
 
-mkdir -p CMakeFiles
+sudo mkdir -p CMakeFiles
 cmake .. -DOPT_BUILD_RTL_SDR_SOURCE=ON
 
 echo "Building"
